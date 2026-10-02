@@ -87,7 +87,7 @@ print("the quick brown fox".title())  # The Quick Brown Fox
 print("hello-world".title())          # Hello-World
 ```
 
-Из-за этого у `title()` есть известные недостатки: любой не-буквенный
+Из-за этого у `title()` есть известные недостатки: любой небуквенный
 символ, в том числе апостроф, начинает «новое слово»:
 
 ```python
