@@ -99,7 +99,7 @@ print(custom)    # {'font_size': 16, 'language': 'en'} -- не изменилс�
 ```
 
 Оператор `|=` обновляет левый словарь и работает как
-`update()` — в том числе, принимает не только словарь, но и итерируемый
+`update()` — в том числе принимает не только словарь, но и итерируемый
 объект пар:
 
 ```python
@@ -142,6 +142,6 @@ print(settings)  # {'theme': 'light', 'font_size': 16, 'language': 'en'}
 
 ## Источники
 
-- [Python documentation. The Python Tutorial —  Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries);
+- [Python documentation. The Python Tutorial — Dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries);
 - [Python documentation. Built-in Types — dict.update()](https://docs.python.org/3/library/stdtypes.html#dict.update);
 - [PEP 584 — Add Union Operators To dict](https://peps.python.org/pep-0584/).
